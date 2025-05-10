@@ -15,7 +15,7 @@ body, html {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
     z-index: 0;
-    background: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
+    background: linear-gradient(120deg, #ff9966 0%, #ff5e62 100%);
     animation: gradientMove 10s ease-in-out infinite alternate;
 }
 
@@ -35,13 +35,13 @@ body, html {
 
 .glass-card {
     background: rgba(255,255,255,0.7);
-    box-shadow: 0 8px 40px 0 rgba(161,140,209,0.15), 0 1.5px 8px 0 rgba(0,0,0,0.04);
+    box-shadow: 0 8px 40px 0 rgba(255,94,98,0.15), 0 1.5px 8px 0 rgba(0,0,0,0.04);
     border-radius: 2rem;
     padding: 3rem 2.5rem 2.5rem 2.5rem;
     max-width: 400px;
     width: 100%;
     backdrop-filter: blur(16px) saturate(180%);
-    border: 1.5px solid rgba(161,140,209,0.18);
+    border: 1.5px solid rgba(255,94,98,0.18);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,11 +58,11 @@ body, html {
     width: 96px;
     height: 96px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+    background: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 12px rgba(161,140,209,0.18);
+    box-shadow: 0 2px 12px rgba(255,94,98,0.18);
     margin-bottom: 1rem;
 }
 
@@ -72,7 +72,7 @@ body, html {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
-    box-shadow: 0 2px 8px rgba(161,140,209,0.10);
+    box-shadow: 0 2px 8px rgba(255,94,98,0.10);
 }
 
 .app-title {
@@ -85,15 +85,15 @@ body, html {
 }
 
 .modern-quote {
-    background: rgba(161,140,209,0.08);
-    border-left: 4px solid #a18cd1;
+    background: rgba(255,94,98,0.08);
+    border-left: 4px solid #ff5e62;
     border-radius: 1rem;
     padding: 1.2rem 1.5rem 1.2rem 1.2rem;
     margin-bottom: 2rem;
     font-size: 1.1rem;
     font-style: italic;
     color: #4b4f5a;
-    box-shadow: 0 1px 4px rgba(161,140,209,0.07);
+    box-shadow: 0 1px 4px rgba(255,94,98,0.07);
     position: relative;
 }
 .modern-quote footer {
@@ -114,14 +114,14 @@ body, html {
 .timer-display {
     font-size: 4.5rem;
     font-weight: 900;
-    color: #a18cd1;
+    color: #ff5e62;
     letter-spacing: -2px;
     margin-bottom: 1.5rem;
-    text-shadow: 0 2px 12px rgba(161,140,209,0.10);
+    text-shadow: 0 2px 12px rgba(255,94,98,0.10);
     background: rgba(255,255,255,0.5);
     border-radius: 1.2rem;
     padding: 0.7rem 2.2rem;
-    box-shadow: 0 1px 8px rgba(161,140,209,0.08);
+    box-shadow: 0 1px 8px rgba(255,94,98,0.08);
 }
 
 .mode-switcher {
@@ -131,8 +131,8 @@ body, html {
 }
 
 .mode-btn {
-    background: #f3e9ff;
-    color: #a18cd1;
+    background: #fff0e6;
+    color: #ff5e62;
     border: none;
     border-radius: 999px;
     padding: 0.5rem 1.3rem;
@@ -140,12 +140,12 @@ body, html {
     font-weight: 600;
     cursor: pointer;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-    box-shadow: 0 1px 4px rgba(161,140,209,0.07);
+    box-shadow: 0 1px 4px rgba(255,94,98,0.07);
 }
 .mode-btn.active, .mode-btn:hover {
-    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+    background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
     color: #fff;
-    box-shadow: 0 2px 8px rgba(161,140,209,0.13);
+    box-shadow: 0 2px 8px rgba(255,94,98,0.13);
 }
 
 .controls {
@@ -156,7 +156,7 @@ body, html {
 }
 
 .control-btn {
-    background: linear-gradient(90deg, #fbc2eb 0%, #a18cd1 100%);
+    background: linear-gradient(90deg, #ff5e62 0%, #ff9966 100%);
     color: #fff;
     border: none;
     border-radius: 999px;
@@ -164,14 +164,14 @@ body, html {
     font-size: 1.1rem;
     font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(161,140,209,0.13);
+    box-shadow: 0 2px 8px rgba(255,94,98,0.13);
     transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
 }
 .control-btn:hover {
-    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+    background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
     color: #fff;
     transform: translateY(-2px) scale(1.04);
-    box-shadow: 0 4px 16px rgba(161,140,209,0.18);
+    box-shadow: 0 4px 16px rgba(255,94,98,0.18);
 }
 
 @media (max-width: 600px) {
